@@ -33,6 +33,14 @@ function draw() {
     dog.setVelocityXEach(2);
   }
   
+  if(keyDown("up")){
+    dog.setVelocityYEach(-2);
+  }
+  
+  if(keyDown("down")){
+    dog.setVelocityYEach(2);
+  }
+  
   drawSprites();
 }
 
